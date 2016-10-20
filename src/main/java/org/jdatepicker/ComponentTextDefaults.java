@@ -144,7 +144,7 @@ public final class ComponentTextDefaults {
      * we may want to override it, so if a text is specified then we will not consider the SimpleDateFormat symbols.
      *
      * @param key
-     * @return
+     * @return text
      */
     public String getText(Key key) {
         String text = texts.getProperty(key.getProperty());
