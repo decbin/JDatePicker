@@ -595,9 +595,9 @@ public class JDatePanel extends JComponent implements DatePanel {
                 nextMonthButton.setDisabledIcon(getIcons().getNextMonthIconDisabled());
                 nextMonthButton.setText("");
                 nextMonthButton.setPreferredSize(new java.awt.Dimension(20, 15));
-                nextMonthButton.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+//                nextMonthButton.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
                 nextMonthButton.setFocusable(false);
-                nextMonthButton.setOpaque(true);
+                nextMonthButton.setOpaque(false);
                 nextMonthButton.addActionListener(internalController);
                 nextMonthButton.setToolTipText(getTexts().getText(ComponentTextDefaults.Key.MONTH));
             }
@@ -616,9 +616,9 @@ public class JDatePanel extends JComponent implements DatePanel {
                 nextYearButton.setDisabledIcon(getIcons().getNextYearIconDisabled());
                 nextYearButton.setText("");
                 nextYearButton.setPreferredSize(new java.awt.Dimension(20, 15));
-                nextYearButton.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+//                nextYearButton.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
                 nextYearButton.setFocusable(false);
-                nextYearButton.setOpaque(true);
+                nextYearButton.setOpaque(false);
                 nextYearButton.addActionListener(internalController);
                 nextYearButton.setToolTipText(getTexts().getText(ComponentTextDefaults.Key.YEAR));
             }
@@ -637,9 +637,9 @@ public class JDatePanel extends JComponent implements DatePanel {
                 previousMonthButton.setDisabledIcon(getIcons().getPreviousMonthIconDisabled());
                 previousMonthButton.setText("");
                 previousMonthButton.setPreferredSize(new java.awt.Dimension(20, 15));
-                previousMonthButton.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+//                previousMonthButton.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
                 previousMonthButton.setFocusable(false);
-                previousMonthButton.setOpaque(true);
+                previousMonthButton.setOpaque(false);
                 previousMonthButton.addActionListener(internalController);
                 previousMonthButton.setToolTipText(getTexts().getText(ComponentTextDefaults.Key.MONTH));
             }
@@ -658,9 +658,9 @@ public class JDatePanel extends JComponent implements DatePanel {
                 previousYearButton.setDisabledIcon(getIcons().getPreviousYearIconDisabled());
                 previousYearButton.setText("");
                 previousYearButton.setPreferredSize(new java.awt.Dimension(20, 15));
-                previousYearButton.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+//                previousYearButton.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
                 previousYearButton.setFocusable(false);
-                previousYearButton.setOpaque(true);
+                previousYearButton.setOpaque(false);
                 previousYearButton.addActionListener(internalController);
                 previousYearButton.setToolTipText(getTexts().getText(ComponentTextDefaults.Key.YEAR));
             }
